@@ -17,7 +17,7 @@ public class OptimizedServer {
             System.out.println("服务器在等待连接");
             while (true) {
                 Socket socket = serverSocket.accept();
-                Runnable runnable = () -> {
+               /* Runnable runnable = () -> {
                     try {
 
                         byte[] bytes;
@@ -35,10 +35,10 @@ public class OptimizedServer {
 
                         }
                         System.out.println("消息接受完毕");
-                        /*OutputStream outputStream = socket.getOutputStream();
+                        *//*OutputStream outputStream = socket.getOutputStream();
                         String message = "服务器返回的消息";
                         outputStream.write(message.getBytes("UTF-8"));
-                        outputStream.close();*/
+                        outputStream.close();*//*
                         inputStream.close();
                         socket.close();
 
@@ -47,6 +47,7 @@ public class OptimizedServer {
                     }
                 };
                 threadPool.submit(runnable);
+            */
             }
         } catch (Exception e) {
         }

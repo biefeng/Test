@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="f">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/jdom/jdom/1.0/jdom-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/repository/org/json/json/20160810/json-20160810.jar!/" />
+      <root url="jar://F:/jar/jsqlparser-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -14,7 +14,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 
 public class OptimizedServer1 {
     public static void main(String args[]) {
-        try {
+      /*  try {
             SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss");
 
             ExecutorService threadPool = Executors.newFixedThreadPool(100);
@@ -57,7 +57,7 @@ public class OptimizedServer1 {
             }
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
     }
 }

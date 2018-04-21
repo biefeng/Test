@@ -1,4 +1,4 @@
-package com.biefeng.demo.gof;
+package com.biefeng.demo.gof.singleton;
 
 public class TestStaticSingleton {
     private TestStaticSingleton (){}

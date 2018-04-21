@@ -15,7 +15,7 @@ public class OptimizedClient1 {
         Scanner input = new Scanner(System.in);
         byte[] bs;
         while (true) {
-            try {
+           /* try {
                 Runnable runnable = () -> {
 
                 };
@@ -42,7 +42,7 @@ public class OptimizedClient1 {
 
             } catch (IOException e) {
                 e.printStackTrace();
-            }
+            }*/
         }
     }
 }
